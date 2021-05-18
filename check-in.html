@@ -20,36 +20,41 @@
     </header>
 
     <div>
-    <h2>
+    <h2 id="check-in-page">
         This is a daily check-in for you to use as an online diary
     </h2>
 
-    <form action="GET">
-        <label for="">First Name:</label>
-        <input type="text" required>
+    <form action="GET" method="#">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" class="form-input" required>
 
-        <label for="">Last Name:</label>
-        <input type="text" required>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" class="form-input" required>
 
-        <label for="">Rate Your Day:</label>
-        <label for="1">1 - Bad</label>
+        <label for="score" class="feelgood">Rate Your Day:</label>
 
-        <input type="radio" required>
-        <label for="2">2 - Average</label>
+        <label for="score">1 - Bad</label>
+        <input type="radio" id="score" name="1" required>
 
-        <input type="radio">
-        <label for="3">3 - Good</label>
+        <label for="score">2 - Average</label>
+        <input type="radio" id="score" name="2">
+        
+        <label for="score">3 - Good</label>
+        <input type="radio" id="score" name="3">
+        
 
-        <input type="radio">
-        <label for="4">4 - Great</label>
+        <label for="score">4 - Great</label>
+        <input type="radio" id="score" name="4">
 
-        <input type="radio">
-        <label for="5">5 - Excellent</label>
+        <label for="score">5 - Excellent</label>
+        <input type="radio" id="score" name="5">
+        
 
-        <label for="">What did you to feel good?</label>
-        <input type="text" required>
+        <label for="feelgood" class="feelgood">What did you to feel good?</label>
+        <textarea type="text" id="feelgood" name="feelgood" class="form-input" required></textarea>
 
         <input type="submit" value="Add to diary">
+        <input type="reset" value="Clear form">
     </form>
     </div>
 

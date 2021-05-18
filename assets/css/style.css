@@ -14,6 +14,7 @@ h2 {
     text-decoration: underline;
 }
 
+
 ul {
     padding: 20px;
 }
@@ -21,6 +22,29 @@ ul {
 li {
     list-style: none;
     margin: 0;
+}
+
+form {
+    position: absolute;
+    left: 10%;
+    margin: 100px;
+    padding: 30px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    background-color: rgba(254,147,105,0.2);
+}
+
+.form-input {
+    display: block;
+    width: 50%;
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 7px;
+
+}
+
+#check-in-page {
+    text-decoration: none;
 }
 
 #logo {
@@ -33,8 +57,16 @@ li {
     text-transform: uppercase;
 }
 
-#navigation {
+.navigation {
     float: right;
+}
+
+.feelgood {
+    display: block;
+}
+
+label {
+    line-height: 20px;
 }
 
 a{
@@ -47,9 +79,7 @@ a{
 }
 
 
-nav{
-    display: right;
-}
+
 /*
 header{
     background: img src="https://as2.ftcdn.net/jpg/01/64/58/73/500_F_164587390_wHVS1RfAmUkEoTtKDKfXGaAsYIH7vFCh.jpg"
@@ -63,6 +93,9 @@ a:hover {
 img {
     height: 300px;
     width: 30%;
+    padding: 30px 20px;
+    float: left;
+    clear: both;
 }
 
 /*
