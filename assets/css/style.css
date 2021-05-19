@@ -4,15 +4,19 @@
 }
 
 body {
+    background-image: url ('../assets/images/lavender-photo.jpeg');
     background-color: rgba(188,164,215,0.5);
 }
+
 p{
     width: 50%;
-    display: inline;
-    padding: 0;
+    padding: 20px;
+    line-height: 20px;
+
 }
 
 h2 {
+    clear: both;
     padding:20px;
     text-decoration: underline;
 }
@@ -60,6 +64,7 @@ form {
 
 }
 
+
 #check-in-page {
     text-decoration: none;
 }
@@ -68,7 +73,7 @@ form {
     font-size: 250%;
     padding: 20px;
     color: #9C89B3;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     text-decoration: none;
     text-transform: uppercase;
     float: left;
@@ -76,7 +81,7 @@ form {
 
 .navigation-menu {
     font-size: 100%;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     position: relative;
     left: 300px;
     bottom: auto;
@@ -117,11 +122,14 @@ a{
     padding: 15px;
 }
 
+/* #image-right{
+    float: right;
+    clear: both;
+}
 
 
-/*
 header{
-    background: img src="https://as2.ftcdn.net/jpg/01/64/58/73/500_F_164587390_wHVS1RfAmUkEoTtKDKfXGaAsYIH7vFCh.jpg"
+    img src="https://as2.ftcdn.net/jpg/01/64/58/73/500_F_164587390_wHVS1RfAmUkEoTtKDKfXGaAsYIH7vFCh.jpg"
 }
 */
 
@@ -130,20 +138,11 @@ a:hover {
 }
 
 /*
-.imgage-left{
-    display:inline-block;
-}
-.image-right{
-    display:inline-block;
-}
-
-.text-left {
-    display: left;
-    width: 60%;
-}
-
 .text-right {
-    display: right;
+    float: right;
+    clear: both;
+    position: relative;
+    text-align: left;
     width: 60%;
 }
 */
