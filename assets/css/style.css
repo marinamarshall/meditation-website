@@ -3,9 +3,13 @@
     padding: 0;
 }
 
+body {
+    background-color: rgba(188,164,215,0.5);
+}
+
 p{
     width: 50%;
-    display: inline-block;
+    display: inline;
     padding: 0;
 }
 
@@ -48,17 +52,19 @@ form {
 }
 
 #logo {
-    float: left;
     font-size: 250%;
     padding: 20px;
-    text-align: left;
     color: #9C89B3;
     text-decoration: none;
     text-transform: uppercase;
+    float: left;
 }
 
-.navigation {
-    float: right;
+.navigation-menu {
+    font-size: 100%;
+    position: relative;
+    left: 400px;
+    bottom: auto;
 }
 
 .feelgood {
@@ -68,12 +74,11 @@ form {
 label {
     line-height: 20px;
 }
-
 a{
     font-size: 200%;
     text-align: right;
     text-decoration: none;
-    color: #9C89B3;
+    color: #4B4453;
     margin-left: 10px;
     padding: 15px;
 }
