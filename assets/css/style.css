@@ -94,19 +94,19 @@ form {
 
 /* navigation menu */
 
-#navigation-menu {
+.navigation-menu {
     font-size: 90%;
     letter-spacing: 3px;
 }
 
-#navigation-menu li {
+.navigation-menu li {
     float: right;
     list-style-type: none;
     margin-right: 10px;
 
 }
 
-#navigation-menu a{
+.navigation-menu a{
     font-size: 200%;
     text-align: right;
     text-decoration: none;
@@ -115,11 +115,11 @@ form {
     padding: 15px;
 }
 
-#navigation-menu, #logo {
+.navigation-menu, #logo {
     line-height: 150px;
 }
 
-#navigation-menu a:hover {
+.navigation-menu a:hover {
     color: #a393eb;
 }
 
@@ -154,6 +154,10 @@ footer > p {
     font-size: 130%;
     margin-right: 30px;
     display: inline-block;
+}
+
+.social-media a:hover {
+    color: #a393eb;
 }
 
 /*
