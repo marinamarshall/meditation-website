@@ -23,19 +23,19 @@ h1, h2 {
 }
 
 p{
-    width: 50%;
+    text-align: center;
+    width: 100%;
     padding: 20px;
-    line-height: 20px;
-
 }
 
-img {
+/*img {
     height: 300px;
     width: 30%;
     padding: 30px 20px;
     float: left;
     clear: both;
 }
+*/
 
 
 ul {
@@ -114,7 +114,7 @@ form {
 }
 
 #navigation-menu, #logo {
-    line-height: 75px;
+    line-height: 150px;
 }
 
 #navigation-menu a:hover {
@@ -124,9 +124,9 @@ form {
 /* hero image */
 
 #hero-image {
-    height: 600px;
+    height: 400px;
     width: 100%;
-    background: url ('assets/images/hero-image.jpeg');
+    background: url('../images/hero-image.jpg') no-repeat;
 }
 
 .feelgood {
@@ -154,7 +154,7 @@ footer > p {
 }
 
 label {
-    line-height: 20px;
+    line-height: 150px;
 }
 
 
@@ -162,13 +162,6 @@ label {
     float: right;
     clear: both;
 }
-
-
-header{
-    img src="https://as2.ftcdn.net/jpg/01/64/58/73/500_F_164587390_wHVS1RfAmUkEoTtKDKfXGaAsYIH7vFCh.jpg"
-}
-*/
-
 
 /*
 .text-right {
