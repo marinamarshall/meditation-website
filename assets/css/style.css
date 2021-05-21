@@ -3,13 +3,23 @@
 * {
     margin: 0;
     padding: 0;
+    border: none;
 }
 
 body {
     font-family: Roboto, sans-serif;
     font-weight: 600;
+    color: #3a3a3a; 
     background-image: url ('../assets/images/lavender-photo.jpeg');
     background-color: rgba(188,164,215,0.5);
+}
+
+h1, h2 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    letter-spacing: 3px;
 }
 
 p{
@@ -17,12 +27,6 @@ p{
     padding: 20px;
     line-height: 20px;
 
-}
-
-h2 {
-    clear: both;
-    padding:20px;
-    text-decoration: underline;
 }
 
 img {
@@ -68,27 +72,53 @@ form {
 
 }
 
+.active {
+    border-bottom: 1px solid #a393eb;
+}
+
 
 #check-in-page {
     text-decoration: none;
 }
 
 #logo {
-    font-size: 250%;
+    font-size: 350%;
     padding: 20px;
     color: #9C89B3;
     letter-spacing: 3px;
     text-decoration: none;
-    text-transform: uppercase;
     float: left;
 }
 
-.navigation-menu {
-    font-size: 100%;
+/* social media links */
+
+#navigation-menu {
+    font-size: 90%;
     letter-spacing: 3px;
-    position: relative;
-    left: 300px;
-    bottom: auto;
+}
+
+#navigation-menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 10px;
+
+}
+
+#navigation-menu a{
+    font-size: 200%;
+    text-align: right;
+    text-decoration: none;
+    color: #4B4453;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+#navigation-menu, #logo {
+    line-height: 75px;
+}
+
+#navigation-menu a:hover {
+    color: #a393eb;
 }
 
 .feelgood {
@@ -118,14 +148,7 @@ footer > p {
 label {
     line-height: 20px;
 }
-a{
-    font-size: 200%;
-    text-align: right;
-    text-decoration: none;
-    color: #4B4453;
-    margin-left: 10px;
-    padding: 15px;
-}
+
 
 /* #image-right{
     float: right;
@@ -138,9 +161,6 @@ header{
 }
 */
 
-a:hover {
-    color: #a393eb;
-}
 
 /*
 .text-right {
