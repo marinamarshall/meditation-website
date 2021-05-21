@@ -103,11 +103,12 @@ footer > p {
 #social-media {
     color: #4B4453;
     float: right;
+    display: inline;
 
 }
 
 #social-media li {
-    display: inline-block;
+    display: inline;
 }
 
 label {
