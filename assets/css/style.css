@@ -121,6 +121,14 @@ form {
     color: #a393eb;
 }
 
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url ('assets/images/hero-image.jpeg');
+}
+
 .feelgood {
     display: block;
 }
