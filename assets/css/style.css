@@ -48,11 +48,12 @@ li {
     margin: 0;
 }
 
+/*
 footer {
     margin: 0 auto;
-    position: static;
-    text-align: right;
+    text-align: center;
 }
+*/
 
 form {
     position: absolute;
@@ -91,7 +92,7 @@ form {
     float: left;
 }
 
-/* social media links */
+/* navigation menu */
 
 #navigation-menu {
     font-size: 90%;
@@ -131,29 +132,35 @@ form {
     background-position: 2% 20%;
 }
 
-.feelgood {
-    display: block;
+/* social media links */
+
+footer {
+    text-align: center;
 }
 
 footer > p {
-    font-size: 110%;
-    float: left;
-    position: relative;
-    left: -150px;
-    top: 30px;
+    font-size: 120%;
+    display: inline;
+}
+
+.social-media ul {
+    list-style-type: none;
+    display: inline;
     
 }
 
-#social-media {
+.social-media li {
     color: #4B4453;
-    float: right;
-    display: inline;
-
+    font-size: 130%;
+    margin-right: 30px;
+    display: inline-block;
 }
 
-#social-media li {
-    display: inline;
+/*
+.feelgood {
+    display: block;
 }
+*/
 
 label {
     line-height: 150px;
