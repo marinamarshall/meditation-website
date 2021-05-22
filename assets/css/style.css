@@ -23,45 +23,50 @@ h1, h2 {
     margin-top: 20px;
 }
 
+h3 {
+    float: left;
+    clear: both;
+    line-height: 0px;
+    margin-left: 20px;
+}
+
 p{ 
     text-align: center;
     padding: 10px;
 }
 
-/*img {
-    height: 300px;
-    width: 30%;
-    padding: 30px 20px;
-    float: left;
+#bottom-image {
+    height: 200px;
+    width: 100%;
+    position: cover no-repeat;
     clear: both;
-}
-*/
-
-
-ul {
-    padding: 20px;
 }
 
 li {
     list-style-type: none;
     padding: 5px;
+    text-align: center;
 }
 
-/*
+
 footer {
     margin: 0 auto;
     text-align: center;
 }
-*/
+
 
 form {
-    position: absolute;
-    left: 10%;
-    margin: 100px;
-    padding: 30px;
-    border: 2px solid grey;
+    clear: both;
+    border: 1px solid grey;
     border-radius: 7px;
-    background-color: rgba(254,147,105,0.2);
+    background-color: rgba(254,147,105,0.15);
+    max-width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+form > label {
+    margin: 0 auto;
 }
 
 .form-input {
@@ -79,10 +84,6 @@ form {
 
 /* paragraph display on index.html */
 
-.main-page {
-    text-align: center;
-}
-
 
 #check-in-page {
     text-decoration: none;
@@ -96,6 +97,28 @@ form {
     text-decoration: none;
     float: left;
 }
+
+#float-right {
+    float: right;
+    width: 33%;
+    border: 1pxsolid black;
+}
+#float-center {
+    margin: 0 auto;
+    width: 33%;
+}
+#float-left {
+    float: left;
+    width: 33%;
+}
+
+/*
+#footer-image {
+    height: 300px;
+    width:100%;
+    overflow: hidden;
+}
+*/
 
 /* navigation menu */
 
@@ -137,10 +160,21 @@ form {
     background-position: 2% 20%;
 }
 
+/* footer image */
+/*
+#bottom-image {
+    height:150px;
+    width: 100%;
+    background: url('/assets/images/tranquil.jpeg') center no-repeat;
+}
+*/
+
+
 /* social media links */
 
 footer {
     text-align: center;
+    position: sticky;
 }
 
 footer > p {
@@ -165,31 +199,7 @@ footer > p {
     color: #a393eb;
 }
 
-/*
-.feelgood {
-    display: block;
-}
-*/
-
 label {
     line-height: 150px;
 }
 
-#benefits {
-    text-align: center;
-}
-
-/* #image-right{
-    float: right;
-    clear: both;
-}
-
-/*
-.text-right {
-    float: right;
-    clear: both;
-    position: relative;
-    text-align: left;
-    width: 60%;
-}
-*/
