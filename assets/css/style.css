@@ -23,10 +23,9 @@ h1, h2 {
     margin-top: 20px;
 }
 
-p{
+p{ 
     text-align: center;
-    width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 /*img {
@@ -44,8 +43,8 @@ ul {
 }
 
 li {
-    list-style: none;
-    margin: 0;
+    list-style-type: none;
+    padding: 5px;
 }
 
 /*
@@ -76,6 +75,12 @@ form {
 
 .active {
     border-bottom: 1px solid #a393eb;
+}
+
+/* paragraph display on index.html */
+
+.main-page {
+    text-align: center;
 }
 
 
@@ -170,6 +175,9 @@ label {
     line-height: 150px;
 }
 
+#benefits {
+    text-align: center;
+}
 
 /* #image-right{
     float: right;
