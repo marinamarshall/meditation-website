@@ -138,6 +138,7 @@ form > label {
     line-height: 20px;
     margin-right: 30px;
     margin-left: 20px;
+    height: 50%;
 }
 
 .tutorial-text h4 {
@@ -145,6 +146,8 @@ form > label {
     text-transform: uppercase;
     text-decoration: underline 1px solid #3a3a3a;
     margin-left: 20px;
+    height: 50%;
+    
 }
 
 video {
