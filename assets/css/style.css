@@ -46,12 +46,6 @@ li {
     color: #FCFAF5;
 }
 
-
-footer {
-    margin: 0 auto;
-    text-align: center;
-}
-
 hr {
     border-bottom: 1px solid #3a3a3a;
     width: 60px;
@@ -222,32 +216,29 @@ video {
 /* social media links */
 
 footer {
-    text-align: center;
-    position: sticky;
+    height: 150px;
 }
 
-footer > p {
-    font-size: 120%;
-    color: #3a3a3a;
+.social-media {
+    text-align: center;  
+}
+
+.social-media > li {
     display: inline;
 }
 
-.social-media ul {
-    list-style-type: none;
-    display: inline;
-    
-}
-
-.social-media li {
+.social-media i {
     color: #4B4453;
-    font-size: 130%;
-    margin-right: 30px;
-    display: inline-block;
+    font-size: 150%;
+    margin: 15px 20px;
+    padding: 14px;
 }
 
-.social-media a:hover {
+.social-media i a:hover {
     color: #a393eb;
 }
+
+/* form styling */
 
 label {
     line-height: 150px;
