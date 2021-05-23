@@ -10,7 +10,7 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 600;
     color: #3a3a3a; 
-    background-image: url ('../assets/images/lavender-photo.jpeg');
+    background-image: url ('../images/lavender-photo.jpeg');
     background-color: rgba(188,164,215,0.5);
 }
 
@@ -145,7 +145,7 @@ form > label {
     
 }
 
-video {
+iframe {
     height: 300px;
     width: 500px;
     margin: 0 auto;
@@ -154,7 +154,7 @@ video {
 /* image background for index.html information sections */
 
 #text-image {
-    background: url('/assets/images/nightsky.jpeg');
+    background: url('../images/nightsky.jpeg') repeat;
     background-color: #462684;
     margin-top: 10px;
     height: 400px;
@@ -199,7 +199,7 @@ video {
     margin-top: 0;
     height: 250px;
     width: 100%;
-    background: url('../images/hero-image.jpg') repeat;
+    background: url('../images/hero-image.jpg') no-repeat;
     background-position: 2% 20%;
 }
 
@@ -207,6 +207,7 @@ video {
 
 footer {
     height: 150px;
+    position: sticky;
 }
 
 .social-media {
@@ -228,38 +229,87 @@ footer {
     color: #a393eb;
 }
 
-/* form styling */
-
 /* media queries */
 
-/* for screens at 961px or larger*/
-@media screen and (max-width: 961px) {
+
+/* for screens at 992px or larger*/
+
+@media screen and (max-width: 992px) {
     .navigation-menu {
-        width: 25%;
-        font-size: 70%;
+        width: 65%;
+        font-size: 65%;
         display: inline;
-        margin-top: 20px;
+        float: left;
         margin-right: 20px;
-        padding: 0;
-        position: relative;
         clear: both;
-        left: -442px;
-        top: 50px;
+        position: relative;
+        bottom: -60px;
+        left: -67px;
     }
 
-    #logo {
-        margin: 0;
-    }
 
-    #hero-image {
+    /* edit so image is positioned behind logo and nav menu */
+
+   /* #hero-image {
         background: none;
 
     }
+    */
+
+    /* #text-image {
+        
+        height: 900px;
+        margin: 0 auto;
+    }
+    */
+
+    /* create design to align the paragraphs to be stacked on top of each other*/
+    /*.float-center, .float-left, .float-right {
+        width: 30%;
+        margin: 0 auto;
+        display: block;
+    }
 }
+
+*/
+@media screen and (max-width: 768px) {
+    .navigation-menu {
+        width: 45%;
+        font-size: 45%;
+        display: inline;
+        float: left;
+        margin-right: 10px;
+        clear: both;
+        position: relative;
+        bottom: -40px;
+        left: -47px;
+    }
+
+    .float-center, .float-left, .float-right {
+        display: block;
+        float: left;
+        max-width: 30%;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .navigation-menu {
+        width: 25%;
+        font-size: 25%;
+        display: inline;
+        float: left;
+        margin-right: 5px;
+        clear: both;
+        position: relative;
+        bottom: -20px;
+        left: -27px;
+    }
+    
+}
+
+/* form styling */
 
 label {
     line-height: 150px;
 }
-
-
-
