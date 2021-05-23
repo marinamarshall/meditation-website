@@ -283,43 +283,49 @@ footer {
 /* media queries */
 
 @media screen and (max-width:768px) {
-
+/*
     div > .background-box {
         background-color: rgba (0, 140, 202 0.2);
+        z-index: 2;
     }
+    */
 
     .float-left {
         text-align: center;
         width: 65%;
-        height: 200px;
+        height: 250px;
         float: left;
-        margin-left: 20%;
+        margin-left: 15%;
+        margin-top: 10px;
         clear: both;
-        padding: 40px;
+        padding: 10px 30px;
         border: 1px solid white;
     }
 
     .float-right {
         text-align: center;
-        margin-left: 20%;
+        margin-left: 15%;
+        margin-top: 10px;
         width: 65%;
-        height: 200px;
+        height: 250px;
         float: left;
-        padding: 40px;
+        padding: 10px 30px;
         border: 1px solid white;
     }
 
     .float-center{
         
-        margin-left: 20%;
+        margin-left: 15%;
+        margin-top: 10px;
         width: 65%;
-        height: 200px;
+        height: 250px;
         float: left;
         clear: both;
-        padding: 40px;
+        padding: 10px 30px;
         border: 1px solid white;
     }
 
+    /* responsive image */
     #smaller-screen-bgimage {
         background: url('../images/starry-sky2.jpeg');
         background-color: #462684;
