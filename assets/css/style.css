@@ -125,6 +125,24 @@ form > label {
     
 }
 
+.tutorial-float-right{
+    float: right;
+    width: 33%;
+    padding: 50px 30px;
+}
+
+.tutorial-float-center{
+    margin: 0 auto;
+    width: 33%;
+    padding: 50px 30px;
+}
+
+.tutorial-float-left{
+    float: left;
+    width: 33%;
+    padding: 50px 30px;
+}
+
 /* tutorial page styling */
 
 .tutorial-text p {
@@ -336,6 +354,12 @@ footer {
         background-repeat: no-repeat;
         display:inline-block;
     }
+    
+}
+
+/* For extra small screens 576px or smaller */
+
+@media screen and (max-width: 576px) {
     
 }
 
