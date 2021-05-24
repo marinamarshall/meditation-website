@@ -110,6 +110,7 @@ form > label {
     width: 33%;
     padding: 50px 30px;
     
+    
 }
 
 .float-center {
@@ -117,11 +118,13 @@ form > label {
     width: 33%;
     padding: 50px 30px;
     
+    
 }
 .float-left {
     float: left;
     width: 33%;
     padding: 50px 30px;
+    
     
 }
 
@@ -129,18 +132,21 @@ form > label {
     float: right;
     width: 33%;
     padding: 50px 30px;
+    
 }
 
 .tutorial-float-center{
     margin: 0 auto;
     width: 33%;
     padding: 50px 30px;
+
 }
 
 .tutorial-float-left{
     float: left;
     width: 33%;
     padding: 50px 30px;
+    
 }
 
 /* tutorial page styling */
@@ -159,7 +165,7 @@ form > label {
     text-transform: uppercase;
     text-decoration: underline 1px solid #3a3a3a;
     margin-left: 20px;
-    height: 50%;
+    /*height: 50%;*/
     
 }
 
@@ -167,6 +173,7 @@ iframe {
     height: 300px;
     width: 500px;
     margin: 0 auto;
+    clear: both;
 }
 
 /* image background for index.html information sections */
@@ -308,6 +315,12 @@ footer {
     }
     */
 
+    /*  iframe {
+        clear: both;
+        padding: 14px;
+    }
+    */
+
     .float-left {
         text-align: center;
         width: 65%;
@@ -329,10 +342,10 @@ footer {
         float: left;
         padding: 10px 30px;
         border: 1px solid white;
+        clear: both;
     }
 
-    .float-center{
-        
+    .float-center {
         margin-left: 15%;
         margin-top: 10px;
         width: 65%;
@@ -354,12 +367,65 @@ footer {
         background-repeat: no-repeat;
         display:inline-block;
     }
+
+    /* tutorials.html styling */
+
+    /*
+    .tutorial-float-right h4, .tutorial-float-left h4, .float-center h4 {
+        padding: 0; 
+    }
+
+    .tutorial-float-right p, .tutorial-float-left p, .float-center p {
+        padding: 0;
+        margin-top: 5px;
+    }
+    */
+
+    .tutorial-float-left {
+        display: block;
+        text-align: center;
+        width: 65%;
+        height: 350px;
+        float: left;
+        margin-left: 15%;
+        margin-top: 5px;
+        clear: both;
+        padding: 0;
+    }
+
+    .tutorial-float-right {
+        display: block;
+        text-align: center;
+        margin-left: 15%;
+        margin-top: 5px;
+        width: 65%;
+        height: 350px;
+        float: left;
+        padding: 0px;
+        clear: both;
+    }
+    
+    .tutorial-float-center {
+        display: block;
+        margin-left: 15%;
+        margin-top: 5px;
+        width: 65%;
+        height: 350px;
+        float: left;
+        clear: both;
+        padding: 0;
+    }
     
 }
 
 /* For extra small screens 576px or smaller */
 
 @media screen and (max-width: 576px) {
+    iframe {
+        clear:both;
+        padding: 7px;
+        margin-bottom: 5px;
+    }
     
 }
 
