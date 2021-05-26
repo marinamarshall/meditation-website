@@ -610,6 +610,22 @@ iframe {
     }
 }
 
+/* media query for screen sizes 515px or smaller */
+@media screen and (max-width: 515px) {
+    .navigation-menu a {
+        display: block;
+        clear: both;
+        font-size: 10px;
+        margin-left: 10px;
+        padding: 0;
+        width: 100%;
+    }
+    
+}
+
+/* navigation menu */
+
+
 /* media query for screens 320px and larger */
 
 @media screen and (max-width: 375px) {
@@ -626,14 +642,4 @@ iframe {
         text-decoration: none;
         float: left;
        }
-
-        /* styling the navigation menu */
-        .navigation-menu {
-            display: block;
-            clear: both;
-            font-size: 5px;
-            margin-left: 0;
-            padding: 0;
-            width: 100%;
-        }
     }
