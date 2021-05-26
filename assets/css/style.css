@@ -321,7 +321,7 @@ footer {
     padding: 14px;
 }
 
-.social-media i a:hover {
+.social-media i:hover {
     color: #a393eb;
 }
 
