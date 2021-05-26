@@ -29,7 +29,7 @@ h3 {
     clear: both;
     height: 2px;
     margin-left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 p{ 
@@ -68,11 +68,24 @@ hr {
     border-radius: 7px;
 }
 
-input, label {
+label {
+    margin: 0 auto;
+    padding: 15px 5px;
+    display: block;
+    width: 40%;
+    height: 15px;
+    text-align: center;
+
+}
+
+input {
+    background: transparent;
+    border: 1px solid #3a3a3a;
+    border-radius: 7px;
     margin: 0 auto;
     padding: 10px 5px;
     display: block;
-    width: 30%;
+    width: 40%;
     height: 15px;
     text-align: center;
 }
@@ -80,40 +93,54 @@ input, label {
 textarea {
     display: block;
     margin: 0 auto;
-    padding: 5px 5px;
+    padding: 15px 5px;
     width: 40%;
     height: 30%;
-    border-bottom: 10px;
-    
 }
 
-.submit-button, .reset-button {
+.submit-button {
+    float: left;
     background-color: #F04FC0;
     color: #D8BFD8;
-    margin: 10px 35%;
+    margin: 20px 20px 10px 45px;
     padding: 15px 0 20px 0;
-    display: inline-block;
     border-radius: 5px;
     font-size: inherit;
     text-align: center;
-    
-    
-    
-    
-
 }
 
-.submit-button:hover, .reset-button:hover {
-    background-color: #D8BFD8;
-    color: #F04FC0;
-    margin: 10px 35%;
+.reset-button {
+    float: right;
+    background-color: #F04FC0;
+    color: #D8BFD8;
+    margin: 20px 20px 10px 45px;
     padding: 15px 0 20px 0;
-    display: inline-block;
     border-radius: 5px;
     font-size: inherit;
     text-align: center;
-    
-    
+}
+
+
+.submit-button:hover {
+    float: left;
+    background-color: #D8BFD8;
+    color: #F04FC0;
+    margin: 20px 20px 10px 45px;
+    padding: 15px 0 20px 0;
+    border-radius: 5px;
+    font-size: inherit;
+    text-align: center;
+}
+
+.reset-button:hover {
+    float: right;
+    background-color: ;#D8BFD8
+    color: #F04FC0;
+    margin: 20px 20px 10px 45px;
+    padding: 15px 0 20px 0;
+    border-radius: 5px;
+    font-size: inherit;
+    text-align: center;
 }
  
 .active {
@@ -309,6 +336,37 @@ footer {
         margin: 0 auto;
         z-index: 2;
     }
+
+    .check-in-page {
+        height: 800px;
+        clear: both;
+        color: rgb(2,0,36);
+        width: 70%;
+        margin: 0 auto;
+        background: linear-gradient( rgba(2, 129, 207,0.4), rgba(0, 137, 186, 0.3), rgba(131, 94, 194,0.2));
+        border-radius: 7px;
+    }
+    
+    input, label {
+        margin: 0 auto;
+        padding: 5px 2px;
+        display: block;
+        width: 40%;
+        height: 15px;
+        text-align: center;
+    }
+    
+    textarea {
+        display: block;
+        margin: 0 auto;
+        padding: 2px 2px;
+        width: 20%;
+        height: 30%;
+        border-bottom: 10px;
+        
+    }
+
+
 
     footer {
         height: 150px;
