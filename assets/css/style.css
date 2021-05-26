@@ -546,7 +546,7 @@ footer {
 
     footer {
         height: 150px;
-        position: sticky;
+        position: fixed;
     }
     
 }
@@ -629,7 +629,7 @@ footer {
 
 /* media query for screens 320px and larger */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     /* re-style logo to accommodate smaller screen sizes*/
 
     /* restyling the hero image */
@@ -645,15 +645,11 @@ footer {
     }
         /* styling the navigation menu */
         .navigation-menu {
-            display: inline;
-            font-size: 20%;
-            margin-top: 0;
+            display: block;
+            clear: both;
+            font-size: 5px;
+            margin-left: 0;
             padding: 0;
             width: 100%;
         }
-    
-    footer {
-        position: sticky;
-    }
-
 }
