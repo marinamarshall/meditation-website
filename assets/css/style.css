@@ -29,6 +29,7 @@ h3 {
     height: 2px;
     margin-left: 20px;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 h4 {
@@ -109,6 +110,9 @@ textarea {
     padding: 15px 5px;
     width: 40%;
     height: 30%;
+    background: transparent;
+    border: 1px solid #3a3a3a;
+    border-radius: 7px;
 }
 
 .submit-button {
@@ -190,7 +194,7 @@ textarea {
     width: 33%;
     padding: 50px 30px; 
 }
-/* tutorial page styling */
+/* tutorial.html page styling */
 
 .tutorial-float-right{
     float: right;
@@ -212,8 +216,6 @@ textarea {
     padding: 50px 30px;
     
 }
-
-
 
 .tutorial-text p {
     color: #3a3a3a;
