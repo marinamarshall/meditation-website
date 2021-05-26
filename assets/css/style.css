@@ -6,9 +6,7 @@
     border: none;
 }
 
-body {
-    font-family: Roboto, sans-serif;
-    color: #3a3a3a; 
+body { 
     background-image: url ('../images/lavender-photo.jpeg');
     background-color: rgba(188,164,215,0.5);
 }
@@ -24,6 +22,8 @@ h1, h2 {
 }
 
 h3 {
+    font-family: Roboto, sans-serif;
+    color: #3a3a3a;
     text-align: left;
     clear: both;
     height: 2px;
@@ -33,14 +33,18 @@ h3 {
 
 h4 {
     font-size: medium;
+    font-family: Roboto, sans-serif;
+    color: #3a3a3a;
 }
 
 h5 {
+    font-family: Roboto, sans-serif;
+    color: #3a3a3a;
     font-size: medium;
     margin-left: 20px;
 }
 
-p{ 
+p{  font-family: Noto Sans, sans-serif;
     text-align: center;
     padding: 10px;
     margin-top: 20px;
@@ -156,7 +160,7 @@ textarea {
 }
 
 #logo {
-    font-size: 350%;
+    font-size: 450%;
     padding-left: 20px;
     height: 75px;
     color: #9C89B3;
@@ -268,7 +272,8 @@ iframe {
 .navigation-menu a{
     font-size: 200%;
     text-decoration: none;
-    color: #4B4453;
+    font-family: Roboto, sans-serif;
+    color: #3a3a3a;
     padding: 15px;
 }
 
