@@ -27,44 +27,48 @@
             </ul>
         </nav>
     </header>
-
-    <h3 id="check-in-page">
-        Use this online diary as a daily check-in
+<section>
+    <h3>
+        This form can be used as a daily check-in. Responses are private and will not be saved.
     </h3>
+</section>        
+
+<section class="check-in-page">
 
     <form action="" method="GET" id="form-background">
         <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname" class="form-input" required>
+        <input type="text" id="fname" name="fname" required>
 
         <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname" class="form-input" required>
+        <input type="text" id="lname" name="lname" required>
 
         <label for="score" class="feelgood">Rate Your Day:</label>
 
         <label for="score">1 - Bad</label>
-        <input type="radio" id="score" name="1" required>
+        <input type="radio" id="1" name="score" required>
 
         <label for="score">2 - Average</label>
-        <input type="radio" id="score" name="2">
+        <input type="radio" id="2" name="score">
         
         <label for="score">3 - Good</label>
-        <input type="radio" id="score" name="3">
+        <input type="radio" id="3" name="score">
         
 
         <label for="score">4 - Great</label>
-        <input type="radio" id="score" name="4">
+        <input type="radio" id="4" name="score">
 
         <label for="score">5 - Excellent</label>
-        <input type="radio" id="score" name="5">
+        <input type="radio" id="5" name="score">
         
 
         <label for="feelgood" class="feelgood">What did you to feel good?</label>
         <textarea type="text" id="feelgood" name="feelgood" class="form-input" required></textarea>
 
-        <input type="submit" value="Add to diary">
-        <input type="reset" value="Clear form">
+        <input class="submit-button" type="submit" value="Add to diary">
+        <input class="submit-button" type="reset" value="Clear form">
     </form>
     </div>
+</section>    
 
     <footer>
         <ul class="social-media">

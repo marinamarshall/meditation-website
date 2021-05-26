@@ -46,52 +46,81 @@ li {
     color: #FCFAF5;
 }
 
+footer {
+    position: sticky;
+}
+
 hr {
     border-bottom: 1px solid #3a3a3a;
     width: 60px;
     margin-left: 20px;
 }
 
-form {
+/* form styling */
+
+.check-in-page {
+    height: 700px;
     clear: both;
-    border: 1px solid grey;
-    border-radius: 7px;
-    background-color: rgba(254,147,105,0.15);
-    max-width: 60%;
-    text-align: center;
+    color: rgb(2,0,36);
+    width: 60%;
     margin: 0 auto;
-}
-
-form > label {
-    margin: 0 auto;
-}
-
-.form-input {
-    display: block;
-    width: 50%;
-    height: 20px;
-    border: 1px solid grey;
-    border-radius: 7px;
-
-}
-
-#form-background {
-    width: 90%;
-    height: 600px;
-    background: rgb(2,0,36);
     background: linear-gradient( rgba(2, 129, 207,0.4), rgba(0, 137, 186, 0.3), rgba(131, 94, 194,0.2));
+    border-radius: 7px;
 }
 
+input, label {
+    margin: 0 auto;
+    padding: 10px 5px;
+    display: block;
+    width: 30%;
+    height: 15px;
+    text-align: center;
+}
+
+textarea {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 5px;
+    width: 40%;
+    height: 30%;
+    border-bottom: 10px;
+    
+}
+
+.submit-button, .reset-button {
+    background-color: #F04FC0;
+    color: #D8BFD8;
+    margin: 10px 35%;
+    padding: 15px 0 20px 0;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: inherit;
+    text-align: center;
+    
+    
+    
+    
+
+}
+
+.submit-button:hover, .reset-button:hover {
+    background-color: #D8BFD8;
+    color: #F04FC0;
+    margin: 10px 35%;
+    padding: 15px 0 20px 0;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: inherit;
+    text-align: center;
+    
+    
+}
+ 
 .active {
     border-bottom: 1px solid #a393eb;
 }
 
 /* paragraph display on index.html */
-
-
-#check-in-page {
-    text-decoration: none;
-}
 
 #logo {
     font-size: 350%;
@@ -435,15 +464,4 @@ footer {
         position: sticky;
     }
     
-}
-
-/* form styling */
-
-label {
-    line-height: 150px;
-}
-
-footer {
-    height: 150px;
-    position: sticky;
 }
