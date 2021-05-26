@@ -1,6 +1,6 @@
-**Meditate**
+#Meditate
 Welcome to Meditate. This website is all about meditation and mindfulness and helps people of all ages and backgrounds. The goal is to teach users simple and effective ways of including straight forward exercises to increase awareness and decrease stress daily. It is simple in design to ensure ease of use and first-use learning. There are mind exercises and body exercises so the client can choose what they would prefer. There is also a daily check-in page for those who want to journal. This is useful as everything from mindfulness and meditation to reflecting on the day is all on the one website. 
-**Features**
+#Features
 -Navigation Bar
 Continuity across all three pages of the website. Easily accessible way of navigating the site and gives the viewer an overall view of the website and what to expect. Links to the Home page, Body and Mind and Check-In page.
 
