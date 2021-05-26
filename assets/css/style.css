@@ -259,77 +259,45 @@ footer {
 
 /* for screens at 992px or larger*/
 
-/* @media screen and (max-width: 992px) {
-    .navigation-menu {
-        width: 65%;
-        font-size: 65%;
-        display: inline;
-        float: left;
-        margin-right: 20px;
-        clear: both;
-        position: relative;
-        bottom: -60px;
-        left: -67px;
-    }
-
-
-    /* edit so image is positioned behind logo and nav menu */
-
-   /* #hero-image {
-        background: none;
-
-    }
-    */
-
-    /* #text-image {
-        
-        height: 900px;
-        margin: 0 auto;
-    }
-    */
-
-    /* create design to align the paragraphs to be stacked on top of each other*/
-    /*.float-center, .float-left, .float-right {
-        width: 30%;
-        margin: 0 auto;
+@media screen and (max-width: 992px) {
+    #logo {
         display: block;
+        clear: both;
     }
-}
-
-*/
-/*
-    
-}
-
-    
-}
-*/
+    /*
+    .navigation-menu li {
+        width: 40%;
+        line-height: 40px;
+        text-align: left;
+        font-size: 65%;
+        padding: 0;
+    }
+    */
 
 /* media queries */
 
 @media screen and (max-width:768px) {
-/*
-    div > .background-box {
-        background-color: rgba (0, 140, 202 0.2);
-        z-index: 2;
-    }
-    */
 
-    /*  iframe {
+    iframe {
         clear: both;
         padding: 14px;
     }
-    */
+
+    #main-page-response {
+        width:100%;
+        height: 768px;
+        margin: 0 auto;
+
+    }
 
     .float-left {
         text-align: center;
         width: 65%;
-        height: 250px;
         float: left;
         margin-left: 15%;
         margin-top: 10px;
         clear: both;
-        padding: 10px 30px;
+        padding: 0;
         border: 1px solid white;
     }
 
@@ -338,9 +306,8 @@ footer {
         margin-left: 15%;
         margin-top: 10px;
         width: 65%;
-        height: 250px;
         float: left;
-        padding: 10px 30px;
+        padding: 0;
         border: 1px solid white;
         clear: both;
     }
@@ -349,10 +316,9 @@ footer {
         margin-left: 15%;
         margin-top: 10px;
         width: 65%;
-        height: 250px;
         float: left;
         clear: both;
-        padding: 10px 30px;
+        padding: 0;
         border: 1px solid white;
     }
 
@@ -368,24 +334,10 @@ footer {
         display:inline-block;
     }
 
-    /* tutorials.html styling */
-
-    /*
-    .tutorial-float-right h4, .tutorial-float-left h4, .float-center h4 {
-        padding: 0; 
-    }
-
-    .tutorial-float-right p, .tutorial-float-left p, .float-center p {
-        padding: 0;
-        margin-top: 5px;
-    }
-    */
-
     .tutorial-float-left {
         display: block;
         text-align: center;
         width: 65%;
-        height: 350px;
         float: left;
         margin-left: 15%;
         margin-top: 5px;
@@ -399,9 +351,8 @@ footer {
         margin-left: 15%;
         margin-top: 5px;
         width: 65%;
-        height: 350px;
         float: left;
-        padding: 0px;
+        padding: 0;
         clear: both;
     }
     
@@ -410,7 +361,6 @@ footer {
         margin-left: 15%;
         margin-top: 5px;
         width: 65%;
-        height: 350px;
         float: left;
         clear: both;
         padding: 0;
@@ -423,7 +373,7 @@ footer {
 @media screen and (max-width: 576px) {
     iframe {
         clear:both;
-        padding: 7px;
+        padding: 0;
         margin-bottom: 5px;
     }
     
