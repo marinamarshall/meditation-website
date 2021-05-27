@@ -108,8 +108,47 @@ The social media aspect is important to keep users up to date if there are any c
 ### Acknowledgements
 
 ## Testing
+* All tests:
+    1. index.html
+    * One Warning
+    ![screenshot](assets/images/warning-ss.png)
+
+    2. tutorials.html
+    * Thirty Five Errors:
+![screenshot](assets/images/error1.png)
+
+![screenshot](assets/images/error2.png)
+
+![screenshot](assets/images/error3.png)
+
+![screenshot](assets/images/error4.png)
+
+![screenshot](assets/images/error5-8.png)
+
+![screenshot](assets/images/error9-13.png)
+
+![screenshot](assets/images/error14-16.png)
+
+![screenshot](assets/images/error17.png)
+
+![screenshot](assets/images/error18.png)
+
+![screenshot](assets/images/error19.png)
+
+![screenshot](assets/images/error20-21.png)
+
+![screenshot](assets/images/error22-25.png)
+
+![screenshot](assets/images/error26-29.png)
+
+![screenshot](assets/images/error30-34.png)
+
+![screenshot](assets/images/error35.png)
+
+    3. check-in.html
 * Bugs
     *index.html warning
     ![]
+    tutorials.html
 * Bugs Fixed
 ## Deployment
