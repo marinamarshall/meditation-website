@@ -21,12 +21,6 @@
 ![screenshot](assets/images/screenshot-check-in.html2.png)
 
 
-
-
-
-
-
-
 ### User Stories
 * First Time Visitor Goals
     * As a first time visitor, I want 
@@ -108,10 +102,11 @@ Continuity across all three pages of the website. Easily accessible way of navig
 ### Home Page
 This section gives the user some background on what the practice of mindfulness and meditation is, the site mission and some of the key benefits of practicing daily.
 
-### Body and Mind Section
+### Tutorials Page
 This section introduces the user to both body and mind exercises. It is displayed in an easy to use way with three beginners exercises for each category. There is one video for each section, accompanied by two written  tutorials.
 
 ### Check-In Page
+This section is for the user to fill in the details of how their day went. Currently, it doesn't do anything with the data, this would be for a future release, so that the user can track their mood and gratitude.
 
 ### Footer
 Stays the same across all three pages of the website. Includes links to social media (that would be up and running in the future). 
@@ -120,15 +115,17 @@ The social media aspect is important to keep users up to date if there are any c
 
 ## Credits
 
-### Code
-
-### Content
-
-### Media
+### Content and Media
+link file here
 
 ### Acknowledgements
 
 ## Testing and Bugs
+* HTML
+    * No errors were returned when passing through the official W3C Validator
+* Css
+    * No errors were returned when passing through the official Jigsaw Validator
+
 * All tests:
     1. index.html
     * 1 Warning
