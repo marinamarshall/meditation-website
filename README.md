@@ -91,18 +91,26 @@ These are some mock-ups made using Balsamiq, they are the rough idea of what the
     * The fonts Noto Sans and Roboto are the main fonts used for the website with Sans Serif as the fallback font in case the font import fails to load. The fonts chosen are easy to read and look good.
 
 ## Technologies used
-* Google Fonts
-* Font Awesome
-* Github
-* Gitpod
 
-## Languages used
+### Languages used
 * HTML 5 
 * CSS3
 
-## Frameworks, Libraries and Programs Used
+### Frameworks, Libraries and Programs Used
+
+* Google Fonts - The fonts Noto Sans and Roboto were imported from Google Fonts to style text elements accross the website. 
+* Font Awesome - The Social Media Icons were imported from Font Awesome. They provide instant recognition to users as to what social media platform they link to.
+* Github - Github was used to store the project code after being pushed from Git. 
+* Git - Git was used as a version control, using gitpod to edit the code and using the terminal to add and commit code with key messages that were to be pushed to Github.
+* Balsamiq - This platfrom was used to create the wireframes for the project
+* Hover.css: - Hover.css: was used on the Navigation Menu, Social Media Links and the Submit and Clear buttons on the form page.
+
+
 
 ## Features
+* Responsive design on most device sizes
+* Interactive elements
+
 ### Navigation Bar
 Continuity across all three pages of the website. Easily accessible way of navigating the site and gives the viewer an overall view of the website and what to expect. Links to the Home page, Body and Mind and Check-In page.
 
