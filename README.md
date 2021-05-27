@@ -131,7 +131,7 @@ The social media aspect is important to keep users up to date if there are any c
 ## Credits
 
 ### Content and Media
-link file here
+[Link to supporting content and media](assets/meditation-website-references.docx)
 
 ### Acknowledgements
 
