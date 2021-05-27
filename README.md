@@ -138,7 +138,7 @@ link file here
 ## Testing and Bugs
 * HTML
     * No errors were returned when passing through the official W3C Validator
-* Css
+* CSS
     * No errors were returned when passing through the official Jigsaw Validator
 
 * All tests:
@@ -212,11 +212,16 @@ link file here
 
 It was necessary to leave the form action as "#" so as not to show errors
 
+## Further Testing
+* The website was tested on a variety of screen sizes such as Desktop, iPad and iPhone SE.
+* The website was tested on Google Chrome, Safari, Microsoft Edge and Internet Explorer.
+* Friends and family were asked to test the site and review it, documenting any bugs or design issues.
+
 ## Deployment
 
 1. go to GitHub.com and select the repository to be deployed.
-2. Go to the settings tab.
-3. Scroll down to GitHub pages section and click the source button
+2. At the top of the repository, go to the settings tab.
+3. Scroll down to "GitHub Pages" section and click the source button
 4. Select branch as master.
 5. Click save. 
 6. Refresh the page. 
