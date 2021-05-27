@@ -115,6 +115,7 @@ The social media aspect is important to keep users up to date if there are any c
 
     2. tutorials.html
     * Thirty Five Errors:
+
 ![screenshot](assets/images/error1.png)
 
 ![screenshot](assets/images/error2.png)
@@ -151,4 +152,10 @@ The social media aspect is important to keep users up to date if there are any c
     ![]
     tutorials.html
 * Bugs Fixed
+
+![screenshot](assets/images/1-47errors.png)
+
+![screenshot](assets/images/48-98errors.png)
+
+![screenshot](assets/images/99-125errors.png)
 ## Deployment
