@@ -14,6 +14,9 @@
 ### The Scope Plane
 ### The Structure Plane
 ### The Skeleton Plane
+
+![screenshot of homepage wireframe](images/homepage-screenshot-balsamiq.png)
+
 ### The Surface Plane
 
 ## User stories
