@@ -25,11 +25,14 @@
 
 ### User Stories
 * First Time Visitor Goals
-    * As a first time visitor, I want 
-    *
+    * As a first time visitor, I want to easily understand what the website is for.
+    * As a first time visitor, I want to find the site well structured and easy to use.
+    * As a first time visitor, I want to have a good experience that makes me want to come back to the site again.
+
 * Returning Visitor Goals
-    * 
-    * 
+    * As a returning visitor I want to learn more new techniques.
+    * As a returning visitor I want to see what updates there are
+    * As a returning visitor I want to be able to use social media to connect with other like-minded people.
 
 ### The Strategy Plane
 1. The site owner's goal is to teach users specific mindfulness and meditation techniques.
@@ -40,7 +43,7 @@
 4. This website will cover specific techniques and offer a journal in the format of a form. Currently the form does not do anything with the data it receives, but that would be part of a future release, to offer a personalised mood tracker any diary-entry system.
 5. There are three sections for the page: Home, Tutorials and Check-in. The header and footer remain a similar layout accross all three pages for continuity.
 6. Owners want to make profit, so a subscription service as a future release is being considered.
-7. Users generally want related items all on one website. Apotential future release could be an online store.  
+7. Users generally want related items all on one website. A potential future release could be an online store.  
 
 ### The Scope Plane
 1. The website covers basic, free tutorials and a non-saved journal to begin with. It is a three-page website and uses the same layout approach to keep it simple for the user.  
@@ -84,6 +87,8 @@ These are some mock-ups made using Balsamiq, they are the rough idea of what the
 * Calming background colours, such as blue, green and lavender are most suitable for the website 
 * There is a background image behind the Home Page paragraphs of information. This is to distinguish it as a section of its own to the user and provide the visual balance again going back to the 1/3 rule that is being applied accross the website.
 * Font colours are either light on a dark background or dark on a light background. This improves user experience and readability. The colours/background do not interfere with the information being presented.
+* Typography
+    * The fonts Noto Sans and Roboto are the main fonts used for the website with Sans Serif as the fallback font in case the font import fails to load. The fonts chosen are easy to read and look good.
 
 ## Technologies used
 * Google Fonts
