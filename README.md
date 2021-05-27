@@ -1,5 +1,7 @@
 # Meditate
 
+![responsive design](assets/images/website-responsive-design.png)
+
 ## [View the live project here](https://marinamarshall.github.io/meditation-website/)
 
 ## About The Website
