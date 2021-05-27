@@ -110,11 +110,11 @@ The social media aspect is important to keep users up to date if there are any c
 ## Testing
 * All tests:
     1. index.html
-    * One Warning
+    * 1 Warning
     ![screenshot](assets/images/warning-ss.png)
 
     2. tutorials.html
-    * Thirty Five Errors:
+    * 35 Errors:
 
 ![screenshot](assets/images/error1.png)
 
@@ -146,12 +146,19 @@ The social media aspect is important to keep users up to date if there are any c
 
 ![screenshot](assets/images/error35.png)
 
-    3. check-in.html
-* Bugs
+3. Check-in.html
+    * 10 errors
+
+![screenshot](assets/images/1-3error.png)
+
+![screenshot](assets/images/4-warning-5-10error.png)
+
+## Bugs
     *index.html warning
     ![]
     tutorials.html
-* Bugs Fixed
+## Bugs Fixed
+*  tutorials.html page
 
 ![screenshot](assets/images/1-47errors.png)
 
