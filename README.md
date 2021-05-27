@@ -98,6 +98,7 @@ These are some mock-ups made using Balsamiq, they are the rough idea of what the
 ## Languages used
 * HTML 5 
 * CSS3
+
 ## Frameworks, Libraries and Programs Used
 
 ## Features
@@ -135,7 +136,7 @@ The social media aspect is important to keep users up to date if there are any c
 ![screenshot](assets/images/warning-ss.png)
 
 2. tutorials.html
-    * 35 Errors:
+    * 35 Errors
 
 ![screenshot](assets/images/error1.png)
 
@@ -167,12 +168,21 @@ The social media aspect is important to keep users up to date if there are any c
 
 ![screenshot](assets/images/error35.png)
 
-3. Check-in.html
+3. check-in.html
     * 10 errors
 
 ![screenshot](assets/images/1-3error.png)
 
 ![screenshot](assets/images/4-warning-5-10error.png)
+
+4. style.css
+    * 9 errors
+
+![screenshot](assets/images/jigsaw-validator-1.png) 
+
+ * 2 warnings
+
+![screenshot](assets/images/jigsaw-validator-2.png)
 
 
 ## Bugs Fixed
