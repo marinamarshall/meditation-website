@@ -7,8 +7,8 @@
 }
 
 body { 
-    background-image: url ('../images/lavender-photo.jpeg');
-    background-color: rgba(188,164,215,0.5);
+    background-image: url('assets/images/lavender-photo.jpeg');
+    background-color: rgba(188, 164, 215, 0.5);
 }
 
 h1, h2 {
@@ -252,7 +252,7 @@ textarea {
 .tutorial-text h4 {
     text-align: center;
     text-transform: uppercase;
-    text-decoration: underline 1px solid #3a3a3a;
+    /*text-decoration: 1px solid #3a3a3a underline;*/
     margin-left: 20px;
     
 }
@@ -277,7 +277,6 @@ iframe {
     margin-top: 10px;
     height: 400px;
     width: 100%;
-    background-position: center center cover no-repeat;
     display: inline-block;
 }
 
@@ -701,17 +700,10 @@ iframe {
     
 }
 
-/* navigation menu */
-
-
 /* media query for screens 320px and larger */
 
 @media screen and (max-width: 375px) {
-    /* re-style logo to accommodate smaller screen sizes*/
-
-    /* restyling the hero image */
-       /* restyling the logo */ 
-       #logo {  
+    #logo {  
         font-size: 150%;
         left: 0;
         height: 75px;
@@ -719,5 +711,6 @@ iframe {
         letter-spacing: 3px;
         text-decoration: none;
         float: left;
-       }
     }
+}
+}
