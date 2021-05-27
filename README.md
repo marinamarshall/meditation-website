@@ -10,12 +10,27 @@
  The design of the website ensures ease of use and first-use learning. There are two sections for the tutorials page; one is dedicated to mind exercises such as breathing techniques and body scanning and the other section is for yoga poses so the client can choose what they would prefer. There is also a daily check-in page for those who want to journal. This is useful as everything from mindfulness and meditation to reflecting on the day is all on the one website.
 
 # User Experience (UX)
+![]
+![] 
 ### The Strategy Plane
+1. The site owner's goal is to teach users specific mindfulness and meditation techniques.
+ 2. The user goal is to learn specific mindfulness and meditation techniques.
+
+3. Meditation and mindfulness don't require a set level of skill or experience and therefore it is suitable for people of all ages and backgrounds. It is a particularly useful set of techniques to learn if stress and anxiety are a part of a person's daily life. Mindfulness and meditation add pause and calm to any day.
+4. This website will cover specific techniques and offer a journal in the format of a form. Currently the form does not do anything with the data it receives, but that would be part of a future release, to offer a personalised mood tracker any diary-entry system.
+5. There are three sections for the page: Home, Tutorials and Check-in. The header and footer remain a similar layout accross all three pages for continuity.
+6. Owners want to make profit, so a subscription service as a future release is being considered.
+7. Users generally want related items all on one website. Apotential future release could be an online store.  
+
 ### The Scope Plane
 ### The Structure Plane
 ### The Skeleton Plane
 
-![screenshot of homepage wireframe](images/homepage-screenshot-balsamiq.png)
+![screenshot of homepage wireframe](assets/images/homepage-screenshot-balsamiq.png)
+
+![screenshot of tutorials wireframe](assets/images/tutorials-screenshot-balsamiq.png)
+
+![screenshot of check-in wireframe](assets/images/check-in-screenshot-balsamiq.png)
 
 ### The Surface Plane
 
