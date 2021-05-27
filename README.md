@@ -1,8 +1,8 @@
 # Meditate
 
-### [View the live project here](https://marinamarshall.github.io/meditation-website/)
+## [View the live project here](https://marinamarshall.github.io/meditation-website/)
 
-### About the Website
+### About The Website
  Meditate is a three-page website designed to teach simple and effective mindfulness and meditation techniques.
  
  In a world that is constantly changing with more challenges, it is important for our mental and physical health to learn coping skills to self-soothe and relax. The goal of this website is to help people of all ages and backgrounds, using straight forward and powerful techniques of decreasing stress and increasing awareness on a daily basis.
@@ -168,6 +168,14 @@ The social media aspect is important to keep users up to date if there are any c
 
 ![screenshot](assets/images/1warning.png)
 
-It was necessary to leave the form acttion as "#" so as not to show errors
+It was necessary to leave the form action as "#" so as not to show errors
 
 ## Deployment
+
+1. go to GitHub.com and select the repository to be deployed.
+2. Go to the settings tab.
+3. Scroll down to GitHub pages section and click the source button
+4. Select branch as master.
+5. Click save. 
+6. Refresh the page. 
+7. Copy the live website link provided.
