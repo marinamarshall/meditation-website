@@ -566,6 +566,12 @@ iframe {
         border-radius: 7px;
     }
 
+   #check-in-header-text {
+        clear: both;
+        height: 50px;
+        margin-bottom: 20px;
+   }
+
     label {
         margin: 0 auto;
         margin-bottom: 20px;
@@ -574,7 +580,13 @@ iframe {
         width: 70%;
         height: 15px;
         text-align: center;
-    
+    }
+
+    input {
+        padding: 5px 5px;
+        display: block;
+        width: 40%;
+        text-align: center;
     }
 }
 

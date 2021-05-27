@@ -10,16 +10,20 @@
  The design of the website ensures ease of use and first-use learning. There are two sections for the tutorials page; one is dedicated to mind exercises such as breathing techniques and body scanning and the other section is for yoga poses so the client can choose what they would prefer. There is also a daily check-in page for those who want to journal. This is useful as everything from mindfulness and meditation to reflecting on the day is all on the one website.
 
 ## User Experience (UX)
-![screenshot](assets/images/Screenshot-index.html-headerandbody.png)
+![screenshot](assets/images/screenshot-index.html-headerandbody.png)
 
-![screenshot](assets/images/Screenshot-tutorials.html-body.png)
+![screenshot](assets/images/screenshot-tutorials.html-body.png)
 
-![screenshot](assets/images/Screenshot-tutorials.html-mind.png)
+![screenshot](assets/images/screenshot-tutorials.html-mind.png)
+
+![screenshot](assets/images/screenshot-check-in.html1.png)
+
+![screenshot](assets/images/screenshot-check-in.html2.png)
 
 
 
 
-![screenshot](assets/images/Screenshot-index.html-headerandbody.png)
+
 
 
 
