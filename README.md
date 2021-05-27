@@ -102,7 +102,7 @@ These are some mock-ups made using Balsamiq, they are the rough idea of what the
 * Font Awesome - The Social Media Icons were imported from Font Awesome. They provide instant recognition to users as to what social media platform they link to.
 * Github - Github was used to store the project code after being pushed from Git. 
 * Git - Git was used as a version control, using gitpod to edit the code and using the terminal to add and commit code with key messages that were to be pushed to Github.
-* Balsamiq - This platfrom was used to create the wireframes for the project
+* Balsamiq - This platfrom was used to create the wireframes for the project. They were created before any code was written to assess layout and content before looking at specific styles.
 * Hover.css: - Hover.css: was used on the Navigation Menu, Social Media Links and the Submit and Clear buttons on the form page.
 
 
