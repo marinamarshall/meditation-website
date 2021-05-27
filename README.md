@@ -11,7 +11,16 @@
 
 # User Experience (UX)
 ![]
-![] 
+![]
+
+## User Stories
+* First Time Visitor Goals
+    * As a first time visitor, I want 
+    *
+* Returning Visitor Goals
+    * 
+    * 
+
 ### The Strategy Plane
 1. The site owner's goal is to teach users specific mindfulness and meditation techniques.
  2. The user goal is to learn specific mindfulness and meditation techniques.
@@ -23,8 +32,31 @@
 7. Users generally want related items all on one website. Apotential future release could be an online store.  
 
 ### The Scope Plane
+1. The website covers basic, free tutorials and a non-saved journal to begin with. It is a three-page website and uses the same layout approach to keep it simple for the user.  
+
+2. Future Releases
+    * Subscription services, plans
+    * Online mood tracker
+    * Saved journal entries
+    * Soundtracks
+    * Online shop
+    * The science behind mental health, manifestation and the law of attraction
+
 ### The Structure Plane
+1. Home Page
+    * Navigation menu and Logo positioned similarly accross all pages
+    * Footer and social media icons positioned similarly accross all pages
+2. Tutorials Page: the information is grouped together based on what it targets:
+
+    * Body section: three tutorials are featured, they are un-related to each other. There is one video and two written instructions.
+    * Mind section: three tutorials are featured, they are un-related to each other. There is one video and two written instructions.
+
+3. Check-in Page
+    * This section is presented as a form. The method has been set to "GET" where it would normally be "POST" and the action has been left as blank so that results do not go anywhere. 
+
 ### The Skeleton Plane
+
+These are some mock-ups made using Balsamiq, they are the rough idea of what the website was intended to look like.
 
 ![screenshot of homepage wireframe](assets/images/homepage-screenshot-balsamiq.png)
 
@@ -34,9 +66,13 @@
 
 ### The Surface Plane
 
-## User stories
+#### Layout/Structure
+ The website pages will be split into three sections horizontally. The header, The body and The footer. On each page, the body layout will be divided roughly into thirds going vertically. This is to give visual balance and to allow paragraphs of text and immages/videos to be displayed inline with each other and then when the screen size is decreased, the responsive features will stack the elements one on top of the other.
 
-## Design
+#### Colours  
+* Calming background colours, such as blue, green and lavender are most suitable for the website 
+* There is a background image behind the Home Page paragraphs of information. This is to distinguish it as a section of its own to the user and provide the visual balance again going back to the 1/3 rule that is being applied accross the website.
+* Font colours are either light on a dark background or dark on a light background. This improves user experience and readability. The colours/background do not interfere with the information being presented.
 
 ## Technologies used
 * Google Fonts
@@ -71,5 +107,9 @@ The social media aspect is important to keep users up to date if there are any c
 ### Media
 ### Acknowledgements
 
-## Testing User Stories from User Experience (UX) Section
+## Testing
+* Bugs
+    *index.html warning
+    ![]
+* Bugs Fixed
 ## Deployment
