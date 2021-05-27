@@ -216,6 +216,9 @@ The social media aspect is important to keep users up to date if there are any c
 
 It was necessary to leave the form action as "#" so as not to show errors
 
+* style.css file
+![screenshot](assets/images/jigsaw-validated.png)
+
 ## Further Testing
 * The website was tested on a variety of screen sizes such as Desktop, iPad and iPhone SE.
 * The website was tested on Google Chrome, Safari, Microsoft Edge and Internet Explorer.

@@ -7,7 +7,7 @@
 }
 
 body { 
-    background-image: url('assets/images/lavender-photo.jpeg');
+    background-image: url('assets/images/hero-image.jpeg');
     background-color: rgba(188, 164, 215, 0.5);
 }
 
@@ -252,8 +252,9 @@ textarea {
 .tutorial-text h4 {
     text-align: center;
     text-transform: uppercase;
-    /*text-decoration: 1px solid #3a3a3a underline;*/
+    text-decoration: underline;
     margin-left: 20px;
+    font-weight: bold;
     
 }
 
