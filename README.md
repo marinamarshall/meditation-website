@@ -135,6 +135,10 @@ link file here
 
 ### Acknowledgements
 
+* My Mentor Chris for continuous, insightful feedback.
+* Tutor support at Code Institute for their support.
+* Fellow peers on slack for advice.
+
 ## Testing and Bugs
 * HTML
     * No errors were returned when passing through the official W3C Validator
