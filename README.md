@@ -107,13 +107,14 @@ The social media aspect is important to keep users up to date if there are any c
 ### Media
 ### Acknowledgements
 
-## Testing
+## Testing and Bugs
 * All tests:
     1. index.html
     * 1 Warning
-    ![screenshot](assets/images/warning-ss.png)
 
-    2. tutorials.html
+![screenshot](assets/images/warning-ss.png)
+
+2. tutorials.html
     * 35 Errors:
 
 ![screenshot](assets/images/error1.png)
@@ -153,10 +154,7 @@ The social media aspect is important to keep users up to date if there are any c
 
 ![screenshot](assets/images/4-warning-5-10error.png)
 
-## Bugs
-    *index.html warning
-    ![]
-    tutorials.html
+
 ## Bugs Fixed
 *  tutorials.html page
 
@@ -165,4 +163,11 @@ The social media aspect is important to keep users up to date if there are any c
 ![screenshot](assets/images/48-98errors.png)
 
 ![screenshot](assets/images/99-125errors.png)
+
+* check-in.html page
+
+![screenshot](assets/images/1warning.png)
+
+It was necessary to leave the form acttion as "#" so as not to show errors
+
 ## Deployment
