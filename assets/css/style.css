@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@300&display=swap');
 
 * { 
-    margin: 0;
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+}
+    /*margin: 0;
     padding: 0;
     border: none;
-}
-
+    */
 body { 
     background-color: rgba(188, 164, 215, 0.5);
 }
@@ -278,7 +281,6 @@ iframe {
 /* navigation menu */
 
 .navigation-menu {
-    font-size: 90%;
     letter-spacing: 3px;
 }
 
@@ -289,7 +291,7 @@ iframe {
 }
 
 .navigation-menu a{
-    font-size: 200%;
+    font-size: 120%;
     text-decoration: none;
     font-family: Roboto, sans-serif;
     color: #3a3a3a;
@@ -518,7 +520,7 @@ iframe {
         height: 750px;
         width: 100%;
         background-size: 100% 100%;
-        background-repeat: no-repeat;
+        background-position: cover no-repeat;
         display:inline-block;
     }
 
@@ -602,11 +604,12 @@ iframe {
         float: left; 
     }
         /* styling the navigation menu */
-        .navigation-menu {
-            float: left;
+        .navigation-menu li {
             display: block;
-            width: 100%;
+            padding: 0;
+            width: 90%;
             font-size: 70%;
+            
         }
 
     /* styling the container for the index.html sections*/
