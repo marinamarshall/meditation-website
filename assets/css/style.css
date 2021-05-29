@@ -62,19 +62,11 @@ li {
 
 img {
     height: 300px;
-    width: 20%;
+    width: 15%;
     padding: 15px;
-    margin-left: 90px;
-    margin-right: 20px;
+    margin-left: 150px;
     display: inline;   
 }
-/*
-.benefits {
-    width: 33%;
-    margin: 0 auto;
-    text-align: center;
-}
-*/
 
 #home-photos {
     width: 100%;
@@ -193,7 +185,7 @@ textarea {
 }
 
 #main-page-response {
-    height: 1650px;
+    height: 1200px;
     width: 100%;
 }
 
@@ -349,7 +341,12 @@ iframe {
 /* media query for screens 1151px or larger */
 @media screen and (max-width:1151px) {
 /* editing how tutorial.html iframes and written tutorial sections are displayed */    
-    .tutorial-float-right{
+#main-page-response {
+    height: 1700px;
+    width: 100%;
+}
+
+.tutorial-float-right{
         text-align: center;
         float: right;
         clear:both;
@@ -595,7 +592,7 @@ iframe {
 @media screen and (max-width: 599px) {
     /* restyling the logo */ 
     #logo {
-        font-size: 300%;
+        font-size: 400%;
         margin: 0;
         padding: 0;
         height: 75px;
@@ -609,12 +606,7 @@ iframe {
             float: left;
             display: block;
             width: 100%;
-            
-        }
-
-        .navigation-menu a {
-            font-size: 120%;
-            
+            font-size: 70%;
         }
 
     /* styling the container for the index.html sections*/
@@ -699,21 +691,13 @@ iframe {
 
 /* media query for screens 320px and larger */
 
-@media screen and (max-width: 375px) {
-    #logo {  
-        font-size: 300%;
-        left: 0;
-        height: 75px;
-        color: #9C89B3;
-        letter-spacing: 3px;
-        text-decoration: none;
-        float: left;
+@media screen and (max-width: 320px) {
+    
+    .navigation-menu a {
+        font-size: 120%;
+        margin: 0;
+        padding: 0;
     }
-
-    nav {
-        font-size: 100%;
-    }
-
     #main-page-response {
         height: 1800px;
         width:100%;
