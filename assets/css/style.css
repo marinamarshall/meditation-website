@@ -695,7 +695,8 @@ iframe {
 @media screen and (max-width: 320px) {
     
     .navigation-menu a {
-        font-size: 100%;
+        display: block;
+        font-size: 90%;
         margin: 0;
         padding: 0;
     }
