@@ -591,7 +591,7 @@ iframe {
 @media screen and (max-width: 599px) {
     /* restyling the logo */ 
     #logo {
-        font-size: 350%;
+        font-size: 400%;
         margin: 0;
         padding: 0;
         height: 75px;
@@ -606,7 +606,7 @@ iframe {
             padding: 7px;
             left: 0;
             width: 100%;
-            font-size: 95%;
+            font-size: 100%;
             
         }
 
@@ -696,7 +696,7 @@ iframe {
     
     .navigation-menu a {
         display: block;
-        font-size: 90%;
+        font-size: 100%;
         margin: 0;
         padding: 0;
     }
