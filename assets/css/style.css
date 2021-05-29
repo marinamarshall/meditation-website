@@ -699,8 +699,9 @@ iframe {
         margin: 0;
         padding: 0;
     }
+    
     #main-page-response {
-        height: 1800px;
+        height: 2000px;
         width:100%;
     }
 
@@ -708,7 +709,6 @@ iframe {
         display: block;
         width: 70%;
         height: 200px;
-        margin:0 auto;
     }
 }
 }
