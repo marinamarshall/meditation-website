@@ -60,9 +60,9 @@ li {
 }
 
 img {
+    width: 20%;
     height: 300px;
-    width: 33%;
-    margin-left: 150px;
+    padding: 10px 90px;
     display: inline;   
 }
 
@@ -688,9 +688,9 @@ iframe {
     }
 }
 
-/* media query for screens 320px and larger */
+/* media query for screens 375px and larger */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     
     .navigation-menu a {
         display: block;
@@ -705,9 +705,9 @@ iframe {
     }
 
     img {
-        padding: 0;
+        padding-top: 10px;
         margin: 0 auto;
-        width: 10px;
+        width: 33%;
         display: block;
     }
 }
