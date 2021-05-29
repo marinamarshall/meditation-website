@@ -5,7 +5,6 @@
     padding: 0;
     border: none;
 }
-
 body { 
     background-color: rgba(188, 164, 215, 0.5);
 }
@@ -62,8 +61,7 @@ li {
 
 img {
     height: 300px;
-    width: 15%;
-    padding: 15px;
+    width: 33%;
     margin-left: 150px;
     display: inline;   
 }
@@ -707,10 +705,10 @@ iframe {
     }
 
     img {
+        padding: 0;
         margin: 0 auto;
+        width: 10px;
         display: block;
-        width: 40%;
-        height: 150px;
     }
 }
 }
