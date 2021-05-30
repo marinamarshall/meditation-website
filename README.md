@@ -98,7 +98,8 @@ These are some mock-ups made using Balsamiq, they are the rough idea of what the
 
 ### Frameworks, Libraries and Programs Used
 
-* Google Fonts - The fonts Noto Sans and Roboto were imported from Google Fonts to style text elements accross the website. 
+* Google Fonts - The fonts Noto Sans and Roboto were imported from Google Fonts to style text elements accross the website.
+* Google Developer Tools -  Used throughout the coding process to assess errors in positioning and styling.
 * Font Awesome - The Social Media Icons were imported from Font Awesome. They provide instant recognition to users as to what social media platform they link to.
 * Github - Github was used to store the project code after being pushed from Git. 
 * Git - Git was used as a version control, using gitpod to edit the code and using the terminal to add and commit code with key messages that were to be pushed to Github.
@@ -131,7 +132,7 @@ The social media aspect is important to keep users up to date if there are any c
 ## Credits
 
 ### Content and Media
-[Link to supporting content and media](assets/meditation-website-references.docx)
+[Link to supporting content and media](assets/meditation-website-references.pdf)
 
 ### Acknowledgements
 
