@@ -133,7 +133,7 @@ The social media aspect is important to keep users up to date if there are any c
 
 ### Content and Media
 
-Note the PDF file in GitHub (meditation-website-references.pdf) for a thorough list of references for each website used to create this website.
+Note the PDF file in Github for a thorough list of references for each website used to create this website.
 <ul>
 <li>
 <a href="https://www.healthline.com/nutrition/12-benefits-of-meditation">Link to benefits of mindfulness</a>
