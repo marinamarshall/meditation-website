@@ -132,7 +132,73 @@ The social media aspect is important to keep users up to date if there are any c
 ## Credits
 
 ### Content and Media
-[Link to supporting content and media](meditation-website-references.pdf)
+
+Note the PDF file in GitHub (meditation-website-references.pdf) for a thorough list of references for each website used to create this website.
+<ul>
+<li>
+<a href="https://www.healthline.com/nutrition/12-benefits-of-meditation">Link to benefits of mindfulness</a>
+</li>
+
+<li>
+<a href="https://www.healthline.com/nutrition/12-benefits-of-meditation">Link to breathing exercises</a>
+</li>
+
+<li>
+<a href="https://www.self.com/gallery/must-know-yoga-poses-for-beginners">Link to yoga poses</a>
+</li>
+
+<li>
+<a href="https://mycolor.space/?hex=%23905CE5&sub=1">Link to colour palette</a>
+</li>
+
+<li>
+<a href="https://www.csscolorpalettes.com/palettes/1519">Link to colour palette</a>
+</li>
+
+<li>
+<a href="https://www.rawpixel.com/image/421501/premium-illustration-psd-lavender-lavender-flower-lavandula">Link to hero-image source</a>
+</li>
+
+<li>
+<a href="https://fonts.google.com/specimen/Roboto#pairings">Link to Google Fonts used</a>
+</li>
+
+<li>
+<a href="https://cssgradient.io/">Link to gradient tool</a>
+</li>
+
+<li>
+<a href="https://www.rawpixel.com/image/2336017/free-illustration-image-space-galaxy-sky">Link to responsive-background image</a>
+</li>
+
+<li>
+<a href="https://www.youtube.com/watch?v=ZToicYcHIOU">Link to tutorial video</a>
+</li>
+
+<li>
+<a href="https://www.youtube.com/watch?v=QS2yDmWk0vs">Link to tutorial video</a>
+</li>
+
+<li>
+<a href="https://unsplash.com/photos/tyCVZ1Aaqxo">Link to index.html photos</a>
+</li>
+
+<li>
+<a href="https://unsplash.com/photos/rtS8Fpb3rcI">Link to index.html photos</a>
+</li>
+
+<li>
+<a href="https://unsplash.com/photos/odxB5oIG_iA">Link to index.html photos</a>
+</li>
+
+<li>
+<a href="https://www.lipsum.com/feed/html">Link to text used for wireframes</a>
+</li>
+
+<li>
+<a href="http://ami.responsivedesign.is/#">Link to website showing my website on different screen sizes</a>
+</li>
+</ul>
 
 ### Acknowledgements
 
