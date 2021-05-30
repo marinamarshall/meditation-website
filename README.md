@@ -81,7 +81,7 @@ These are some mock-ups made using Balsamiq, they are the rough idea of what the
 ### The Surface Plane
 
 #### Layout/Structure
- The website pages will be split into three sections horizontally. The header, The body and The footer. On each page, the body layout will be divided roughly into thirds going vertically. This is to give visual balance and to allow paragraphs of text and immages/videos to be displayed inline with each other and then when the screen size is decreased, the responsive features will stack the elements one on top of the other.
+ The website pages will be split into three sections horizontally. The header, The body and The footer. On each page, the body layout will be divided roughly into thirds going vertically. This is to give visual balance and to allow paragraphs of text and images/videos to be displayed inline with each other and then when the screen size is decreased, the responsive features will stack the elements one on top of the other.
 
 #### Colours  
 * Calming background colours, such as blue, green and lavender are most suitable for the website 
@@ -108,8 +108,8 @@ These are some mock-ups made using Balsamiq, they are the rough idea of what the
 
 
 ## Features
-* Responsive design on most device sizes
-* Interactive elements
+* Responsive design on all device sizes
+* Interactive elements - such as navigation bar with colour change, underline and .active class added to emphasise the current tab the user is on.
 
 ### Navigation Bar
 Continuity across all three pages of the website. Easily accessible way of navigating the site and gives the viewer an overall view of the website and what to expect. Links to the Home page, Body and Mind and Check-In page.
@@ -142,6 +142,7 @@ The social media aspect is important to keep users up to date if there are any c
 ## Testing and Bugs
 * HTML
     * No errors were returned when passing through the official W3C Validator
+
 * CSS
     * No errors were returned when passing through the official Jigsaw Validator
 
@@ -220,7 +221,7 @@ It was necessary to leave the form action as "#" so as not to show errors
 ![screenshot](assets/images/jigsaw-validated.png)
 
 ## Further Testing
-* The website was tested on a variety of screen sizes such as Desktop, iPad and iPhone SE.
+* The website was tested on a variety of screen sizes such as Desktop, iPad and iPhone 6/7/8.
 * The website was tested on Google Chrome, Safari, Microsoft Edge and Internet Explorer.
 * Friends and family were asked to test the site and review it, documenting any bugs or design issues.
 
