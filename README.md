@@ -209,6 +209,8 @@ PDF</a> in Github for a thorough list of references for each website used to cre
 * Fellow peers on slack for advice.
 
 ## Testing and Bugs
+The W3C Markup Validator and W3C CSS Validator Services were used to validate each page of the website to ensure there were no syntax errors in the website.
+
 * HTML
     * No errors were returned when passing through the official W3C Validator
 
