@@ -218,12 +218,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ea
     * No errors were returned when passing through the official Jigsaw Validator
 
 * All tests:
-    1. index.html
+1. index.html
     * 1 Warning
+        * This warning was left unchanged because the section did not require a heading 2-6 element.
 
 ![screenshot](assets/images/warning-ss.png)
 
 2. tutorials.html
+    * 1 Warning
+        * This warning was left unchanged because the section did not require a heading 2-6 element.    
+
     * 35 Errors
 
 ![screenshot](assets/images/error1.png)
@@ -269,6 +273,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ea
 ![screenshot](assets/images/jigsaw-validator-1.png) 
 
  * 2 warnings
+    * Warning no.1 shows that the validator is only validating the code I have written and not the Google Import, so it has been left as a warning. 
+    * Warning no. 2 was fixed by adding in double quotes ("") around the font family that has a space in-between.
 
 ![screenshot](assets/images/jigsaw-validator-2.png)
 
@@ -289,7 +295,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ea
 It was necessary to leave the form action as "#" so as not to show errors
 
 * style.css file
-![screenshot](assets/images/jigsaw-validated.png)
+![screenshot](assets/images/jigsaw-validated2.png)
 
 ## Further Testing
 * The website was tested on a variety of screen sizes such as Desktop, iPad and iPhone 6/7/8.

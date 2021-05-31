@@ -46,7 +46,7 @@ h5, h6 {  font-family: Roboto, sans-serif;
 }
 
 p { 
-    font-family: Noto-Sans, sans-serif;
+    font-family: "Noto Sans", sans-serif;
     text-align: center;
     padding: 10px;
     margin-top: 20px;
@@ -270,7 +270,9 @@ iframe {
     margin-top: 10px;
     height: 400px;
     width: 100%;
-    position: center cover no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: inline-block;
 }
 
