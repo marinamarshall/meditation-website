@@ -113,7 +113,7 @@ These are some mock-ups made using Balsamiq, they are the rough idea of what the
 * Interactive elements - such as navigation bar with colour change, underline and .active class added to emphasise the current tab the user is on.
 
 ### Navigation Bar
-Continuity across all three pages of the website. Easily accessible way of navigating the site and gives the viewer an overall view of the website and what to expect. Links to the Home page, Body and Mind and Check-In page.
+Continuity across all three pages of the website. Easily accessible way of navigating the site and gives the viewer an overall view of the website and what to expect. Links to the Home page, Body and Mind and Check-In page so that the user doesn't need to rely on the 'back' button.
 
 ### Home Page
 This section gives the user some background on what the practice of mindfulness and meditation is, the site mission and some of the key benefits of practicing daily.
@@ -133,7 +133,7 @@ The social media aspect is important to keep users up to date if there are any c
 
 ### Content and Media
 
-Note the PDF file in Github for a thorough list of references for each website used to create this website.
+Note the PDF file in Github for a thorough list of references for each website used to create this website and some supporting content.
 <ul>
 <li>
 <a href="https://www.healthline.com/nutrition/12-benefits-of-meditation">Link to benefits of mindfulness</a>
